@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>contact</title>
+</head>
+<nav>
+    <h1>Alma</h1>
+    <div class="onglets">
+        <a href="index.html">Accueil</a>
+        <a href="apropos.html">A propos</a>
+        <a href="contact.html">Contact</a>
+        <a href="activites.html">ART</a>
+    </div>
+</nav>
+<body>
+    <section>
+        <form action="traitement.php" method="get">
+            <fieldset>
+                <legend>Formulaire</legend>
+                <label for="Nom">Nom</label>
+                <input type="text" name="Company" placeholder="Exemple : Salma"> <br> <br> <br>
+                <label for="Company" >Entreprise</label>
+                <input type="text" name="Company" id="Company" placeholder="Exemple : ESMT"> <br> <br> <br>
+                <label for="mail">Email</label>
+                <input type="email" name="mail" id="mail" placeholder="example@email.com"> <br> <br> <br>
+                <label for="tel">Téléphone</label>
+                <input type="tel" name="tel" id="tel" placeholder="Exemple : 7X-XXX-XX-XX"> <br> <br> <br> <br>
+                êtes vous intéressés par nos produits ? <br> <br>
+                <label for="choix">Oui</label>
+                <input type="radio" name="intérêt" id="intérêt" value="1" checked>
+                <label for="Choix"> Non</label>
+                <input type="radio" name="intérêt" id="intérêt" value="1"> <br> <br> <br>
+                <input type="submit" value="Enregister">
+            </fieldset>
+        </form>
+    </section>
+            <p> Vous êtes sur la page contact.<br>Veuillez remplir le formulaire ci-dessus pour nous joindre.</br></p>
+    </div>
+</body>
+</html>
